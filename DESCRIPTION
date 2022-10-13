@@ -1,0 +1,15 @@
+Package: rcpp.package
+Type: Package
+Title: Package containing a single Rcpp function for demonstration and starting point for own development
+Version: 1.0
+Date: 2022-10-13
+Author: Jon Lachmann
+Maintainer: Jon Lachmann <jon@lachmann.nu>
+Description: Not much
+License: Public domain
+Encoding: UTF-8
+RoxygenNote: 7.2.0
+Imports:
+    Rcpp
+LinkingTo:
+    Rcpp
