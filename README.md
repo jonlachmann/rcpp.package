@@ -3,7 +3,7 @@ An R package that just contains a single Rcpp function doing addition of two num
 
 # Usage
 - Clone the git repository (using git clone or just download the repo on github).
-- Open the folder using RStudio or PyCharm and run ```devtools::document()```.
+- Open the folder using RStudio or PyCharm and run ```Rcpp::compileAttributes()```.
   - This generates the needed files ```R/RcppExports.R``` and ```src/RcppExports.cpp```
   - Other files are also generated, namely ```addition.o```, ```rcpp.package.so``` and ```RcppExports.o```. These are specific to the system where the package is built (i.e. OSX, Windows, Linux) and should not be included in the code that is saved on e.g. github.
 - To build and install the package, simply run ```pack <- devtools::build(); install.packages(pack)```.
